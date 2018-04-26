@@ -14,6 +14,8 @@ import ten from './assets/ten.jpg';
 import eleven from './assets/eleven.jpg';
 import twelve from './assets/twelve.jpg';
 
+import './style/overrides.css';
+
 export default () => (
   <Carousel
     showThumbs={false}
@@ -21,17 +23,17 @@ export default () => (
     useKeyboardArrows
     className="presentation-mode"
   >
-    <div><img src={one} /></div>
-    <div><img src={two} /></div>
-    <div><img src={three} /></div>
-    <div><img src={four} /></div>
-    <div><img src={five} /></div>
-    <div><img src={six} /></div>
-    <div><img src={seven} /></div>
-    <div><img src={eight} /></div>
-    <div><img src={nine} /></div>
-    <div><img src={ten} /></div>
-    <div><img src={eleven} /></div>
-    <div><img src={twelve} /></div>
+    <div id="divcontent"><img src={one} /></div>
+    <div id="divcontent"><img src={two} /></div>
+    <div id="divcontent"><img src={three} /></div>
+    <div id="divcontent"><img src={four} /></div>
+    <div id="divcontent"><img src={five} /></div>
+    <div id="divcontent"><img src={six} /></div>
+    <div id="divcontent"><img src={seven} /></div>
+    <div id="divcontent"><img src={eight} /></div>
+    <div id="divcontent"><img src={nine} /></div>
+    <div id="divcontent"><img src={ten} /></div>
+    <div id="divcontent"><img src={eleven} /></div>
+    <div id="divcontent"><img src={twelve} /></div>
   </Carousel>
 );
